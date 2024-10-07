@@ -46,7 +46,6 @@ public class EmployeeController {
         LOG.info("get a employee by department id");
         return serviceEmployee.getEmployeeByDepartmentById(did);
 
-        
     }
 
     @PutMapping("/Employee")
